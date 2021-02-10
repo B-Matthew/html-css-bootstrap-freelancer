@@ -46,9 +46,14 @@
   font-size: 30px;
   padding: 0 15px;
   vertical-align: top;
+  color: #2C3E50;
 }
 
-.jumbo_tron hr, .portfolio hr, .about hr{
+.jumbo_tron #star, .about #star {
+  color: white;
+}
+
+.jumbo_tron hr, .portfolio hr, .about hr, .contact hr{
   width:15%;
   display: inline-block;
   border: 2px solid white;
@@ -67,8 +72,9 @@
   padding-bottom: 40px;
 }
 
-.portfolio h2 {
-  padding-top: 70px;
+.portfolio h2, .contact h2 {
+  color: #2C3E50;
+  padding-top: 50px;
   font-weight: bold;
   font-size: 45px;
 }
@@ -130,31 +136,126 @@
   text-align: center;
 }
 
+
 .about h2 {
-  padding-top: 70px;
+  padding-top: 50px;
   font-weight: bold;
   font-size: 45px;
   color: white;
-
 }
 
 .about p {
   padding: 20px 0;
   font-size: 20px;
+  text-align: left;
 }
+
+#btn-download {
+  padding: 15px 30px;
+  background-color: #1ABC9C;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: 0.3s;
+  margin-bottom: 75px;
+  margin-top: 10px;
+}
+
+#btn-download:hover {
+  background-color: white;
+  color: #2C3E50;
+}
+
 
 
 
 /* SEZIONE CONTACT US */
 .contact {
   background-color: #FFFFFF;
+  text-align: center;
+  color:#2C3E50;
+  font-size: 25px;
 }
+
+.contact hr{
+  border: 2px solid #2C3E50;
+}
+
+.form_contact .input-text, .form_contact textarea{
+  width: 100%;
+  padding: 25px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.form_contact  {
+  text-align: left;
+}
+
+.form_contact ::placeholder {
+  color: #2C3E50;
+  font-size: 22px;
+}
+
+#send {
+  padding: 15px 25px;
+  background-color: #1ABC9C;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-size: 20px;
+}
+
+
+
 
 /* Regole Footer */
 
 .footer_sopra {
   background-color: #2C3E50;
+  text-align: center;
+  color: white;
 }
+
+.footer_sopra h3{
+  font-weight: bold;
+  margin: 30px;
+  padding-top: 20px;
+}
+
+.footer_sopra p {
+  font-size: 18px;
+}
+
+.social-font li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+
+.social-font a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  color:white;
+  margin: 0 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
 
 .footer_sotto {
   background-color: #1A252F;
