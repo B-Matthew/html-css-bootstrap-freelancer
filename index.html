@@ -4,6 +4,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <title>Freelancer</title>
   </head>
@@ -13,15 +16,35 @@
       <section class="header_sopra">
         <div class="container">
           <div class="row">
-            <div class="col-xs-6 col-md-6 col-lg-6">
-
-            </div>
-            <div class="col-xs-6 col-md-6 col-lg-6">
-
-            </div>
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
           </div>
         </div>
       </section>
+
+
+
+
       <!-- SEZIONE HEADER BOT -->
       <section class="header_sotto">
         <div class="container">
@@ -146,7 +169,7 @@
             </div>
             <div class="row">
               <div class="col-xs-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
-                <form class="form_contact" action="index.html" method="post">
+                <form class="form_contact">
                   <input class="input-text" type="text" name="" value="" placeholder="Name">
                   <input class="input-text" type="email" name="" value="" placeholder="Email Address">
                   <input class="input-text" type="text" name="" value="" placeholder="Phone Number">
@@ -167,8 +190,8 @@
             <div class="row">
               <div class="col-xs-12 col-md-4 col-lg-4">
                 <h3>LOCATION</h3>
-                <p>2215 John Daniel Drive</p>
-                <p>Clark, MO 65243</p>
+                <p>2215 John Daniel Drive <br>Clark, MO 65243</p>
+
               </div>
               <div class="col-xs-12 col-md-4 col-lg-4">
                 <h3>AROUND THE WEB</h3>
@@ -181,6 +204,7 @@
               </div>
               <div class="col-xs-12 col-md-4 col-lg-4">
                 <h3>ABOUT FREELANCER</h3>
+                <p>Freelance is a free to use, MIT <br>licensed Bootstrap theme created by <br><a id="start-bootstrap" href="#">Start Bootstrap</a>.</p>
               </div>
             </div>
           </div>
@@ -190,6 +214,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12 col-md-12 col-lg-12">
+                <p>Copyright © Your Website 2020</p>
               </div>
             </div>
           </div>
