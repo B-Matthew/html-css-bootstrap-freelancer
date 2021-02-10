@@ -6,9 +6,6 @@
   box-sizing: border-box;
 }
 
-
-
-
 /* Regole Header  */
 .header_sopra {
   background-color: #2C3E50;
@@ -59,14 +56,14 @@
   font-size: 60px;
 }
 /* HR CON STELLA */
-#star {
+.star {
   font-size: 30px;
   padding: 0 15px;
   vertical-align: top;
   color: #2C3E50;
 }
 
-.jumbo_tron #star, .about #star {
+.jumbo_tron .star, .about .star {
   color: white;
 }
 
@@ -76,10 +73,6 @@
   border: 2px solid white;
   border-radius: 5px;
 }
-
-
-
-
 /* Regole Main */
 
 /* SEZIONE PORTFOLIO */
@@ -144,8 +137,6 @@
   text-align: center;
 }
 
-
-
 /* SEZIONE ABOUT */
 .about {
   background-color: #1ABC9C;
@@ -182,9 +173,6 @@
   background-color: white;
   color: #2C3E50;
 }
-
-
-
 
 /* SEZIONE CONTACT US */
 .contact {
@@ -225,9 +213,6 @@
   font-size: 20px;
 }
 
-
-
-
 /* Regole Footer */
 
 .footer_sopra {
@@ -250,8 +235,6 @@
   display: inline-block;
   text-decoration: none;
 }
-
-
 
 .social-font a{
   display: inline-block;
