@@ -8,31 +8,141 @@
 
 /* debug */
 [class*="col-"] {
-  background-color: red;
   min-height: 100px;
   border: 1px solid black;
 }
+
 /* Regole Header  */
 .header_sopra {
   background-color: #1A252F;
 }
 
+.header_sopra {
+  text-align: right;
+}
+/* Regole Jumbotron */
 .header_sotto {
   background-color: #1ABC9C;
+  text-align: center;
+  padding: 60px 0;
 }
+
+.jumbo_tron {
+  color: white;
+}
+
+#avatar {
+  max-height: 250px;
+  width: auto;
+  margin: 30px 0;
+}
+
+.jumbo_tron h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+/* HR CON STELLA */
+#star {
+  font-size: 30px;
+  padding: 0 15px;
+  vertical-align: top;
+}
+
+.jumbo_tron hr, .portfolio hr, .about hr{
+  width:15%;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+
+
 
 /* Regole Main */
 
 /* SEZIONE PORTFOLIO */
 .portfolio {
-  background-color: #FFFFFF;
+
+  text-align: center;
+  padding-bottom: 40px;
 }
+
+.portfolio h2 {
+  padding-top: 70px;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.portfolio hr{
+  border: 2px solid #2C3E50;
+}
+
+.img-con-overlay {
+  position: relative;
+}
+
+.img-con-overlay:hover .overlay {
+  opacity: 0.9;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 30px 0;
+  transition: 0.3s;
+}
+
+.overlay {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #1ABC9C;
+  border-radius: 10px;
+  margin: 30px 0px;
+}
+
+.text-plus {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 
 /* SEZIONE ABOUT */
 .about {
   background-color: #1ABC9C;
+  color: white;
+  text-align: center;
 }
+
+.about h2 {
+  padding-top: 70px;
+  font-weight: bold;
+  font-size: 45px;
+  color: white;
+
+}
+
+.about p {
+  padding: 20px 0;
+  font-size: 20px;
+}
+
 
 
 /* SEZIONE CONTACT US */
