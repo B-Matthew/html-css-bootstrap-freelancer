@@ -9,6 +9,9 @@
 /* Regole Header  */
 .header_sopra {
   background-color: #2C3E50;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar {
@@ -40,6 +43,7 @@
   text-align: center;
   padding: 60px 0;
 }
+
 
 .jumbo_tron {
   color: white;
